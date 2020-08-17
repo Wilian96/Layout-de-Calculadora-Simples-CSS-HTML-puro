@@ -1,0 +1,127 @@
+html, body{
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  background: rgb(221, 221, 221);
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 15vh 70vh 10vh;
+  grid-template-areas: "header" "header"
+                        "main" "main"
+                       "footer" "footer";
+}
+header{
+  color: white;
+  background: #004b7c;
+  text-align: center;
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  grid-area: header;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+main{
+  background: #095594;
+  width: 100%;
+  height: 100%;
+  grid-area: main;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+footer{
+  color: white;
+  text-shadow: white 0 0 3px;
+  background: #004b7c;
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  grid-area: footer;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: center;
+}
+.dispalyN{
+  width: 100%;
+  height: 130px;
+}
+.teclado{
+  background: white;
+  width: 100%;
+  height: 70%;
+}
+.btn{
+  width: 145px;
+  height: 65px;
+  font-weight: 600;
+  font-size: 26px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 0px;
+}
+.btn:hover{
+  color: white;
+  background: #095594;
+  font-size: 28px;
+  text-shadow: white 0 0 2px;
+}
+.t{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  padding: 5px;
+}
+#bap{
+  width: 290px;
+  padding: 5px;
+  color: white;
+  background: #004b7c;
+}
+#bap:hover{
+  color: black;
+  background: #bd0000;
+  text-shadow: white 0 0 3px;
+}
+#blp{
+  width: 338px;
+  padding: 5px;
+  color: white;
+  background: #004b7c;
+}
+#blp:hover{
+  color: black;
+  background: #095594;
+  text-shadow: white 0 0 3px;
+}
+#ipc{
+  width: 630px;
+  height: 120px;
+}
+#btzr{
+  width: 290px;
+}
+#bM{
+  width: 193px;
+}
+#bm{
+  width: 193px;
+}
+#bV{
+  width: 193px;
+}
+#bD{
+  width: 193px;
+}
+#bpt{
+  width: 290px;
+}
+#big{
+  width: 338px;
+}
